@@ -5,5 +5,5 @@ setSingleBiome("minecraft:sky")
 
 setSpawnStructure("endchuck")
 
-captureTeleports()
+
 disableRespawning()

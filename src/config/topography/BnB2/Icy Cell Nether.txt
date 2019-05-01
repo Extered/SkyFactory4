@@ -48,4 +48,3 @@ quartz.addRequiredBlock(<minecraft:packed_ice>)
 addGenerator(quartz)
 
 disableRespawning()
-captureTeleports()

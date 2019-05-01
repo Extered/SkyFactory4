@@ -32,4 +32,3 @@ tiny = skyIslands.addSkyIslands(10, 128, true)
 tiny.addType(glassNLava)
 
 disableRespawning()
-captureTeleports()

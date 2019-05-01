@@ -60,5 +60,5 @@ addGenerator(cobalt)
 
 enableRelightChecks()
 disableRespawning()
-captureTeleports()
+
 vaporizeWater()

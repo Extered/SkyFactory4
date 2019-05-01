@@ -25,4 +25,3 @@ sky.addSunMoon()
 
 setFogColor(#000000)
 
-captureTeleports()

@@ -49,4 +49,3 @@ addGenerator(cobalt)
 
 enableRelightChecks()
 disableRespawning()
-captureTeleports()

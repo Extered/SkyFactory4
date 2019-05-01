@@ -11,4 +11,3 @@ setSpawnStructure("hedgemaze2", 25)
 setSingleBiome("minecraft:hell")
 
 disableRespawning()
-captureTeleports()

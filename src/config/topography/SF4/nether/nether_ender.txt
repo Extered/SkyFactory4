@@ -49,4 +49,3 @@ cobalt.addRequiredBlock(<minecraft:packed_ice>)
 addGenerator(cobalt)
 
 disableRespawning()
-captureTeleports()

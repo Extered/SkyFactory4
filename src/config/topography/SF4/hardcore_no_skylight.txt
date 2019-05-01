@@ -11,4 +11,3 @@ disableSky()
 disableSkylight()
 setFogColor(#000000)
 
-captureTeleports()

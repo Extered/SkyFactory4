@@ -33,5 +33,5 @@ prosperity.setDeformScale(4)
 prosperity.addRequiredBlock(<minecraft:end_stone>)
 addGenerator(prosperity)
 
-captureTeleports()
+
 disableRespawning()

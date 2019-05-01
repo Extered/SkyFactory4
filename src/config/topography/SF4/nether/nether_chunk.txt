@@ -11,4 +11,3 @@ setSpawnStructure("netherchuck")
 setSingleBiome("minecraft:hell")
 
 disableRespawning()
-captureTeleports()
