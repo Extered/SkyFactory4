@@ -11,12 +11,26 @@ Bug Fixes:
 * Tweaked Telepastry alternative recipes to match the primary one
 * Disabled Twilight Forest Uncrafting Table to prevent exploits
 * Remove un-unified Amber Mekanism crushing recipes
+* Prevent player picking up Mekanism Bounding Box using Carry On (#748)
+* Prevent player picking up any blocks from OpenComputers (#686, #724)
+* Prevent player picking up screens from Practical Logistics (#639)
+* Prevent player picking up translocator pairs (#504)
+* Prevent player picking up blocks from RFToolsPower (#579)
+* Thin Wooden Wall recipe changed to avoid conflict with Rustic Wooden Stake (#251)
+* Players playing in tutorial now get non_pacifist stage, allowing crafting of components from Deep Mob Learning (#388)
+* Fix localisation of Building Gadget keybind (#669)
+* Age of Power tab can now be completed by players who have not unlocked Twilight Forest through prestige (#597)
+* Players on presets with modified end dimensions can now get the advancement "Where's the boss?" (#606)
 
 Enhancements:
 * Increased Deep Mob Learning Shulker power requirement
 * Added Shulker Pearls and Glowing Chorus to the Shulker Deep Mob Learning drops
 * Removed Cyclic's Glowing Chrous recipe
 * Add melting recipes for pink slime
+* Add chorus flower to the drops of the chorus fruit plant - making them obtainable in CompactSky (#750)
+* Altered a number of prestige values for progressional balance
+* Added sarcastic tooltip to Nether Cake that is food from XLFoods mod
+* Enable Applied Energistic's Color Applicator & Paint Balls (#749)
 
 
 ---------------------------------------------------------------------

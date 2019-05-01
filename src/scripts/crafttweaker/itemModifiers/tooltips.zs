@@ -652,6 +652,15 @@ static itemTooltipMap as IFormattedText[][IItemStack] = {
 	<resourcehogs:bacon>.withTag({ResourceType: "missing"}): [
 		format.yellow("Stop trying to cheat! >.<")
 	],
+	<cyclicmagic:glowing_chorus>: [
+		format.yellow("Drink Milk to remove flight")
+	],
+	<xlfoodmod:nether_cake>: [
+		format.yellow("This is NOT a portal to another dimension"),
+		format.yellow("Your cake is in another castle"),
+		format.red("This. Is. Food."),
+		format.yellow("This is not a lie.")				
+	],
 };
 
 function init() {
