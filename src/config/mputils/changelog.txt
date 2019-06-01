@@ -17,6 +17,7 @@ Enhancements:
 * Add support for all buckets in Cauldron Obsidian recipe
 * Add Mystical Agradditions paxels to "Paxel Rose" advancement (#592)
 * Add Cottonwood amber recipe to packager
+* Add more saplings to Industrial Foregoing Bioreactor (#840)
 
 
 ---------------------------------------------------------------------
