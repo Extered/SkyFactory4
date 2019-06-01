@@ -17,7 +17,7 @@ function init() {
     prestige.addGamestageReward("mysticalagriculture", stages.mysticalAgriculture);
     prestige.addGamestageReward("mysticalagriculture", stages.prosperityTree);
     prestige.addGamestageReward("portalgun", stages.portalGun);
-    //prestige.addGamestageReward("projecte", stages.projectE);
+    prestige.addGamestageReward("projecte", stages.projectE);
     prestige.addGamestageReward("twilightforest", stages.twilightForest);
     prestige.addGamestageReward("open_computers", stages.openComputers);
 
@@ -41,6 +41,7 @@ function init() {
 	prestige.addGamestageReward("smeltery", stages.smeltery);
     prestige.addGamestageReward("ore_excavation", stages.oreExcavation);
     prestige.addGamestageReward("mega_torch", stages.megaTorch);
+	prestige.addGamestageReward("parabox_two", stages.paraboxTwo);    
 
     // Enable Matter Overdrive Pills via Prestige
     prestige.addGamestageReward("pills", stages.android);
@@ -242,14 +243,4 @@ mods.prestige.Rewards.registerRewardCondition("mystcraft", function(world as IWo
 
 mods.prestige.Rewards.registerRewardCondition("twilightforest", function(world as IWorld, player as IPlayer){
     return mods.topography.Info.getPreset() != "Bedrock Your World";
-});
-
-//
-//Disabled ProjectE until the mod is fixed
-//
-mods.prestige.Rewards.registerRewardCondition("projecte", function(world as IWorld, player as IPlayer){
-    return false;});
-
-mods.prestige.Rewards.registerRewardCondition("projecte_world", function(world as IWorld, player as IPlayer){
-    return false;
 });

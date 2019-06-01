@@ -5,7 +5,21 @@ Please report bugs to the issue tracker!!
 4.0.6
 
 Bug Fixes:
-* Fixed freshly crafted chisels not working in cobble circuit mold
+* Fix acorns from being blacklisted by Barrels, Drums, Storage, and More Ore Dictionary upgrade
+* Blacklisted Rustic Cabinets from CarryOn due to issues when the cabinets were stacked
+* Fix ores smeltable in melter but not in the smeltery
+* Added XL Food Vanilla plant to the Market and the Cyclic Magic Bean drop list (#665)
+* Added a Pacifist mode recipe for Zombie Mob Chunks which should allow players access to this portion of Mystical Agriculture (#765)
+* Added a Pacifist mode recipe for the Deep Mob Learning Glitch Heart (#614)
+* Blacklisted Nuclearcraft Fusion Core from CarryOn pickup (#905)
+* Allowed all Stone Tools to be fixed using any Cobblestone. Very. Important. Very. Cool. Also, you can repair Wooden Shears now (#235)
+* Added Dark Oak and Acacia leaves to the list of burnable items in the Combustion Generator (#911)
+* Ruby Mulch advancement now shows when players have unlocked Ruby Mulch, instead of Amber Mulch (#994)
+* The Horse Power Grindstone no longer produces unusable Mekanism metal dusts when given amber, it now produces the preferred dust for all metal Ambers and Ores (#232, #984)
+* Torchmaster will now properly block spawns of Androids, Blizz, Basalz, and Blitzes (#253)
+* Removed the Ardite and Cobalt ore advancements in the Sky FacTree would by adding the stage "default_ores" on initial player spawn (#964)
+* Fixed incorrect lithium dust output from Mekanism Chemical Crystallizer (#914)
+* Barrels, Drums, Storage, and More's control scheme has been reverted back to: Left Click: 1 stack, Shift-left click: 1 item. Breaking the item on any other side besides the face will not drop contents. This control scheme can be reverted to its previous iteration by opening the mod options menu and disabling alternate controls 
 
 Enhancements:
 * Added "Usage: Power / Energy Transfer Pipe" tooltip to Signalum-Plated ducts (#616)
@@ -17,7 +31,73 @@ Enhancements:
 * Add support for all buckets in Cauldron Obsidian recipe
 * Add Mystical Agradditions paxels to "Paxel Rose" advancement (#592)
 * Add Cottonwood amber recipe to packager
+* Added the ability to melt down Tinkers' casts into Gold
+* Updated the ingame issue tracker link to go directly to the issues page
+* Slightly lowered the chance for Gravitational Anomalies to generate from 5% to 3.33%
+* Changed the Cobblestone Circuit Mold recipe to require a Chisel Head Cast instead of using chisels. This is due to limitations on using damaged chisels
+* Add salt block -> brine melter recipe (#714)
+* Swapped Sulfur drops to Mekanism Sulfur to stay consistent with recipes/oredict (disabled COFH fireproof mob sulfur drops)
+* Added a recipe for Ink Sacs that use Overworldian Matter combined with Lily Pads
+* Added recipes for Dust Blends (steel, electrum, etc)
+* Removed the furnace recipe for Porcelain Unfired Faucet and Added back the recipe to craft directly from Porcelain Bricks to Faucet
+* Added the Empowered Parabox. This machine is designed to generate 3 prestige points per loop at the cost of higher tier items (singularities). This is unlocked via new prestige option
+* Added the ability to unlock ProjectE using Prestige (Only available in Prestige Mode)
+* Added tooltip to AE2 Wireless terminal to charge in Energy Cube (#927)
+* Slightly lowered the spawn chance for Gravitational Anomalies from 3.33% to 2%
+* Added textures to lower the brightness of the Compact Storage GUI's (Thanks to MarioLuigi7896!)
+* Add more saplings to Industrial Foregoing Bioreactor (#840)
 * Add Prosperity amber recipe to packager
+
+Mods Added:
+* Patchouli (1.0-19)
+
+Mod Updates:
+* Apotheosis (1.10.0)
+* Barrels, Drums, Storage, and More (0.0.24)
+* NuclearCraft (2.16f)
+* Weirding Gadgets (2.1.16)
+* FastWorkbench (1.7.1)
+* Cyclic (1.19.9)
+* Compact Machines (3.0.18-b278)
+* Deep Mob Learning (2.5.1)
+* Wawla (2.5.273)
+* Prestige (1.1.53)
+* ProjectE (1.4.0 -> 1.4.1)
+* Mekanism (9.7.4.375)
+* Mekanism Generator (9.7.4.375)
+* XL Food Mod (1.9.1)
+* Parabox (2.0.0)
+* Just Enough Items (4.15.0.279)
+* Horse Power (2.6.4.74)
+* Telepastries (0.3.4)
+* SmoothFont (2.0)
+* Slab Machine (1.0.6)
+* Simple Storage Network (1.7.5)
+* Aroma Core (2.5.5.21)
+* Thermal Foundation (2.6.3.27)
+* Thermal Innovation (0.3.3.12)
+* Toast Control (1.8.1)
+* Resource Hogs (1.0.12)
+* Real Filing Cabinet (0.2.0.9)
+* ProjectE (1.4.1)
+* Elevator Mod (1.4.2)
+* NuclearCraft (2.17a)
+* Gamestage (2.0.115)
+* Hunting Dimension (1.0.38)
+* Industrial Foregoing (1.12.12-236)
+* ItemStages (2.0.50)
+* More Cauldrons (1.4.4)
+* FastWorkbench (1.7.2)
+* FastFurnace (1.3.1)
+* EnderCore (0.5.57)
+* CrafTweaker (4.1.18)
+* Tombstone (3.5.2)
+* CoFHWorld (1.3.1.7)
+* Bookshelf (2.3.581)
+* Chisel & Bits (14.32)
+* Caliper (1.1.45)
+* Astral Sorcery 1.10.19
+* Apotheosis (1.10.2)
 
 
 ---------------------------------------------------------------------
